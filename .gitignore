@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Data - Never commit large datasets!
+data/raw/*
+data/processed/*
+!data/.gitkeep
+
+# IDEs and OS
+.vscode/
+.idea/
+.DS_Store
+
+# Reports
+reports/manuscript.pdf
